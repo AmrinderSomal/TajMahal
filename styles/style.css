@@ -1,0 +1,130 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.logo h1{
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+}
+.Menu ul{
+    list-style: none;
+    display: inline-flex;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 0;
+    top: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    padding: 15px 10px;
+}
+.Menu ul li{
+    padding: 0px 20px;
+    color: #fff;
+}
+.Menu ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.banner{
+    background-image: url(../images/banner-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    position: relative;
+}
+footer{
+    background-color: #021645;
+    color: #fff;
+    padding: 50px 10px;
+}
+.footer-inner{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-inner a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    transition: all 0.38s ease-in-out 0s;
+}
+.footer-inner a:hover{
+    color: red;
+}
+.footer-inner p{
+    font-size: 14px;
+}
+.footer-inner h3{
+    font-size: 18px;
+}
+.banner-bottom{
+    padding: 50px 10px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+aside{
+    width: 25%;
+    margin-right: 10px;
+    padding: 10px 20px;
+    box-shadow: 0px 0px 10px #6a6868;
+    border-radius: 10px;
+}
+aside ul{
+    list-style: none;
+    font-size: 15px;
+    font-weight: 500;
+}
+aside  h2{
+    font-size: 25px;
+    font-weight: 600;
+}
+.about{
+    width: 75%;
+    padding: 10px 20px;
+}
+.about p{
+    font-size: 16px;
+    text-align: justify;
+}
+.about h2{
+    font-size: 30px;
+    font-weight: 600;
+}
+td img{
+    border-radius: 10px;
+}
+td{
+    padding: 5px;
+}
+.column{
+    box-shadow: 0px 0px 10px #ccc;
+    padding: 30px 15px;
+    margin: 10px;
+    border-radius: 8px;
+}
+.column h4{
+    font-size: 20px;
+}
+.column a{
+    text-decoration: none;
+}
